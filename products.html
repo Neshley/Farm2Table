@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <title>Derry Nesh</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head>
+    
+    <!------ Body ------>
+    <body>
+    <section Class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="products.html">PRODUCTS</a></li>
+          <li><a href="Farmers.html">FARMERS</a></li>
+          <li><a href="Orders.html">ORDERS</a></li>
+          <li><a href="Contacts.html">CONTACT</a></li>
+          <li><a href="Admin.html">ADMIN</a></li>
+        </ul>
+            </div>
+             <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+            <h1>Our products</h1>
+    </section>
+        
+        
+          <!------ Products ------>
+    
+    <section class="products">
+        <h1>Products</h1>
+        <p>Products we have in our hub and in good quality.Here are some of the Cereals available on our hub...<br>To see more of what we have,<br>Visit us today and get your pack in good quantity and the best quality ever.
+        </p>
+        
+        <div class="row">
+            <div class="products-col">
+                <h3>Maize</h3>
+                <p>Looking Foward to buy Maize,Visit us today and get yours in the quantity you want.</p>
+            </div>
+            <div class="products-col">
+                <h3>Beans</h3>
+                <p>Looking Foward to buy Beans,Visit us today and get yours in the quantity you want.</p>
+            </div>
+            <div class="products-col">
+                <h3>Millet</h3>
+                <p>Looking Foward to buy Millet,Visit us today and get yours in the quantity you want.</p>
+            </div>
+        </div>
+        
+        
+    </section>
+        
+     
+    <!------ Services ------>
+    <section class="Services">
+        <h1>Our Services</h1>
+        <p>We provide good service to all our Customers.</p>
+        
+        <div class="row">
+            <div class="Services-col">
+                <img src="images/library.png">
+                <h3>World Class Library</h3>
+                We have trained empleyees who will take you through anything you want clarification.<br>Feel free to ask anything.
+            </div>
+            <div class="Services-col">
+                <img src="images/basketball.png">
+                <h3>Our Employees services</h3>
+                We have trained empleyees who will take you through anything you want clarification.<br>Feel free to ask anything.
+            </div>
+            <div class="Services-col">
+                <img src="images/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                we don't accept cash payment...We accept only Mobile or Bank payment.<br>We also provide receipt to our Customers after making their purchases.
+            </div>
+        </div>
+    </section>
+        
+        
+            <!------Footer------> 
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Farm2Table is more business-focused in providing you with quality cereals</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-whatsapp"></i>
+            
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Derrick Nesh</p>
+        </section>
+        
+        
+        
+                <!------javascript for Toggle Menu------>
+    <script>
+    
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+        
+        
+    </body>
+</html>

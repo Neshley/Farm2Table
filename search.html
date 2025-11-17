@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <title>Derry Nesh</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head>
+    
+    <!------ Body ------>
+    <body>
+    <section Class="sub-header3">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>        
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="products.html">PRODUCTS</a></li>
+          <li><a href="Farmers.html">FARMERS</a></li>
+          <li><a href="Orders.html">ORDERS</a></li>
+          <li><a href="Contacts.html">CONTACT</a></li>
+          <li><a href="Admin.html">ADMIN</a></li>
+        <ol>
+            <li><a href="Video.html">VIDEOS</a></li>
+            <li><a href="search.html">SEARCH</a></li>
+        </ol>
+        </ul>
+            </div>
+             <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        
+        <div class="search-box">
+            <h1>web</h1>
+            <p>Explore the web with the link below</p>
+            <a href="https://www.google.com" class="hero-btn red-btn">SEARCH</a>
+        </div>
+    
+    </section>
+        
+        
+        <!--Videos-->
+    <section class="videos"> 
+    <div>
+        <video controls loop autoplay src="videos/Coresound%20Ambient%20Pads%20-%20MultiTracks%20.mp4" width="500"></video> 
+        <!--You can add any videos as you like in here-->
+    </div>
+        
+        <a href="videos/Coresound%20Ambient%20Pads%20-%20MultiTracks%20.mp4" class="hero-btn red-btn">videos</a>
+        <!--You can add any videos as you like in here-->
+        
+    </section>
+        
+        
+        <!--Iframe....Embended document...Embended the web-->
+        
+        <section class="google-col">
+        <a href="https://www.google.com" class="hero-btn red-btn">Search here</a>
+        </section>
+        
+        
+                    <!------Footer------> 
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Farm2Table is more business-focused in providing you with quality cereals</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-whatsapp"></i>
+            
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Derrick Nesh</p>
+        </section>
+        
+        <!------javascript for Toggle Menu------>
+    <script>
+    
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+        
+        
+    </body>
+</html>

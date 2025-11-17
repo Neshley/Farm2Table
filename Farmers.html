@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <title>Derry Nesh</title>
+        <link rel="stylesheet" href="styles.css"/>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    <!------ Body ------>
+    <body>
+    <section Class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="products.html">PRODUCTS</a></li>
+          <li><a href="Farmers.html">FARMERS</a></li>
+            <li><a href="Farm2Table.html">Farm2Table</a></li>
+          <li><a href="Orders.html">ORDERS</a></li>
+          <li><a href="Contacts.html">CONTACT</a></li>
+          <li><a href="Admin.html">ADMIN</a></li>
+        </ul>
+            </div>
+             <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+            <h1>Farmers</h1>
+    </section>
+    
+
+
+  <h2>Register a New Farmer</h2>
+  <form action="submit_farmer.php" method="POST">
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+
+    <label for="location">Location (Village/Town):</label>
+    <input type="text" id="location" name="location" required>
+
+    <label for="county">County:</label>
+    <select id="county" name="county" required>
+      <option value="">--Select County--</option>
+      <option value="Embu">Embu</option>
+      <option value="Kirinyaga">Kirinyaga</option>
+      <option value="Meru">Meru</option>
+      <option value="Tharaka Nithi">Tharaka Nithi</option>
+      <!-- Add more counties as needed -->
+    </select>
+
+    <label for="farmName">Farm Name:</label>
+    <input type="text" id="farmName" name="farmName">
+
+    <label for="farmSize">Farm Size (Acres):</label>
+    <input type="number" id="farmSize" name="farmSize" step="0.1">
+
+    <label for="produce">Main Produce:</label>
+    <input type="text" id="produce" name="produce" required>
+
+    <label for="regDate">Registration Date:</label>
+    <input type="date" id="regDate" name="regDate" required>
+
+    <label for="isActive">Is Active:</label>
+    <select id="isActive" name="isActive">
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+
+    <button type="submit" class="hero-btn red-btn">Register Farmer</button>
+  </form>
+
+
+        
+  
+        
+        
+            <!------Footer------> 
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Farm2Table is more business-focused in providing you with quality cereals</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-whatsapp"></i>
+            
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Derrick Nesh</p>
+        </section>
+        
+        
+        <!------javascript for Toggle Menu------>
+    <script>
+    
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+        
+        
+        
+    </body>
+</html>

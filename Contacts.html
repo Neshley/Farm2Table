@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <title>Derry Nesh</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head>
+    
+    <!------ Body ------>
+    <body>
+    <section Class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="products.html">PRODUCTS</a></li>
+          <li><a href="Farmers.html">FARMERS</a></li>
+          <li><a href="Orders.html">ORDERS</a></li>
+          <li><a href="Contacts.html">CONTACT</a></li>
+          <li><a href="Admin.html">ADMIN</a></li>
+        </ul>
+            </div>
+             <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+            <h1>Contact Us</h1>
+    </section>
+        
+        
+        <!--contact us-->
+        
+        
+        <section class="contact us">
+        
+        <div class="row">
+            <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <h5>XYZ Roadmap ,ABC Building</h5>
+                <P>Bangalore, karnalaka, IN</P>
+                </div>
+                
+                
+                <i class="fa fa-phone"></i>
+                <h5>+254 704034278 OR </h5>
+                    <h5>+254 799873196</h5>
+                <P>Monday to saturday 10AM to 6PM</P>
+                
+                <div>
+                <i class="fa fa-envelope-o"></i>
+                <h5>derrickmunene2025@gmail.com </h5>
+                <P>Email us your query</P>
+                </div>
+            
+            </div>
+            
+            </div>
+        
+        </section>
+        
+        
+        
+        
+        
+        
+        
+        
+            <!------Footer------> 
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Farm2Table is more business-focused in providing you with quality cereals</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-whatsapp"></i>
+            
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Derrick Nesh</p>
+        </section>
+        
+        
+        
+            <!------javascript for Toggle Menu------>
+    <script>
+    
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+        
+        
+        
+        
+    </body>
+</html>
