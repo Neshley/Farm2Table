@@ -1,0 +1,74 @@
+        ....Farm2Table hub Kenya....
+
+>Farm2Table hub Kenya is a website created with an aim of linkin Farmers tongether 
+ where they can chat and discuss on situations affecting them...
+>The website also links farmers to sellers.
+
+
+
+              what to add
+                
+            
+...Home 
+about 
+products
+Farmers
+Orders
+Contact
+Admin...
+
+                        Links
+     links like...
+     <a href class:"">visit us to know more</a>
+     <a href class:"">Explore Now</a>
+     <a href class:"">Contact Us</a>
+     
+     
+     ...know where they will lead.
+This should apply to all of my website pages.
+
+                        Other Links (Button links)
+Some other links like...Register Farmer and  Place Order 
+        <button type="submit" class="hero-btn red-btn">Register Farmer</button>
+         <button type="submit" class="hero-btn red-btn">Place Order</button>
+         
+...On Farmers and Orders navigations respectively should be worked on keenly.
+Where they should lead also should be a key thing to check on
+
+
+                log in key
+under registering should be a login key
+  >This log in key should lead to the farmers page...
+   >In this farmers page ...the farmers should be able to access everything in the 
+    website apart from those that are set for admins unles otherwise
+
+
+
+
+
+
+
+.videos{
+    margin: 100px auto;
+    width: 80%;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
